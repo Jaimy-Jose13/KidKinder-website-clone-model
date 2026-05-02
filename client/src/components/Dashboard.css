@@ -1,0 +1,46 @@
+.dashboard-container {
+  display: flex;
+  height: 100%;
+}
+
+/* LEFT SIDE BOX */
+.sidebar {
+    width: 350px;
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+ /*  width: 350px;
+  background-color: #1e293b;
+  color: white;
+  padding: 20px; */
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.menu li:hover {
+  background-color: #334155;
+}
+
+/* RIGHT SIDE CONTENT */
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #f8f9fa;
+   margin-left:350px;
+   height: 100%;
+}
